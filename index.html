@@ -1,0 +1,15 @@
+<html>
+	<head>
+		
+	</head>
+
+	<body>
+		<center><h1>Client Rest</h1></center>
+		<script 
+		type="text/javascript">
+		fetch('http://localhost:3000/api/v1/products/1')
+		.then((response) => response.json())
+		.then((data) => console.log(data));
+		</script>
+	</body>
+</html>
